@@ -3,7 +3,7 @@ package com.bridgelabz.moodanalyser;
 public class MoodAnalyser{
 	String message;
 	public MoodAnalyser() {
-		this.message ="";
+		this.message ="This is a happy message";
 		this.message ="This is a sad message";
 	}
 	public MoodAnalyser(String message) {
