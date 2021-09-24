@@ -4,11 +4,12 @@ public class MoodAnalyser{
 	String message;
 	public MoodAnalyser() {
 		this.message ="";
+		this.message ="This is a sad message";
 	}
-	public void MoodAnalyser(String message) {
+	public MoodAnalyser(String message) {
 		this.message = message;
 	}
-	public String analyzeMood(String message) {
+	public String analyzeMood() {
 		if(message.toLowerCase().contains("sad")) {
 			return "SAD";
 		}
